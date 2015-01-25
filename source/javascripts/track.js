@@ -1,3 +1,3 @@
 $(function(){
-    blocmetrics.track("page-view", [{key: "visitor_prop_1", value: "visitor_value_1"}]);
+    blocmetrics.track("page-view", {view_prop_1: "view_value_1", view_prop_2: "view_value_2"});
 });
